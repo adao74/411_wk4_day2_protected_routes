@@ -1,9 +1,9 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import cookie from 'cookie'
-import Home from './components/Home'
+import Home from './containers/Home'
 import About from './components/About'
-import Car from './components/Car'
+import Car from './containers/Car'
 import Login from './components/Login'
 
 // Write checkAuth function here
